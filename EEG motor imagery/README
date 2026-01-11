@@ -1,0 +1,29 @@
+# EEG Motor Movement Analysis
+
+This repository contains an independent EEG analysis project developed to gain
+hands-on experience with EEG preprocessing, spectral analysis, and
+visualization using Python and MNE.
+
+---
+
+## Dataset
+
+The analysis uses open-access EEG motor movement data from PhysioNet:
+
+- EEG Motor Movement/Imagery Dataset (EEGMMIDB)  
+  https://physionet.org/content/eegmmidb/1.0.0/
+
+Raw EEG files are not included in this repository due to data-sharing
+considerations.
+
+---
+
+## Project Overview
+
+The project demonstrates a complete EEG analysis workflow, including:
+
+- Loading raw EEG data (EDF format)
+- Band-pass filtering (1–40 Hz)
+- Power spectral density (PSD) estimation
+- Extraction of mu (8–13 Hz) and beta (13–30 Hz) band power
+- Topographical visualization of EEG power
