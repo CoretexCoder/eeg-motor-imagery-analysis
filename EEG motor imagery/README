@@ -27,3 +27,17 @@ The project demonstrates a complete EEG analysis workflow, including:
 - Power spectral density (PSD) estimation
 - Extraction of mu (8–13 Hz) and beta (13–30 Hz) band power
 - Topographical visualization of EEG power
+
+## Repository Structure
+
+eeg-motor-imagery/
+├── notebooks/
+│ └── EEG_Motor_Analysis.ipynb
+├── figures/
+│ └── mu_beta_topography.png
+├── README.md
+├── requirements.txt
+└── .gitignore
+
+Author 
+Toma Andreea
